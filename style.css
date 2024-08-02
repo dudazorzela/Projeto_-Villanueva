@@ -1,0 +1,110 @@
+.menu-h ul{
+    list-style: none;
+    padding: 0 30%;
+    background-color: rgb(13, 2, 62);   
+   position: fixed;
+   width: 100vh;
+   height: 80px;
+}
+
+.menu-h ul li{
+    display: inline;
+}
+
+.menu-h ul li a{
+    color: #FFFFFF;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background ,4s; 
+}
+
+.menu-h ul li a:hover{
+    background-color: #07bcc2;
+    
+}
+
+.titulo__principal{
+    text-align: center;
+    font-size:60px;
+    padding: 60px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
+#sobre {
+    padding: 50px 0px;
+   background: url(img/campo.jpg);
+   background-size: cover;
+   background-position: center;
+   
+}
+
+#sobre {
+    background-attachment: fixed;
+}
+
+#destaque__sobre {
+    display: flex;
+    justify-content: center;
+}
+
+#destaque__sobre img {
+border-radius: 50px;
+margin: 50px;
+width: 800px;
+}
+
+.texto__sobre h2{
+   background-color: #FFFFFF;
+    width: 600px;
+   height: 200px;
+   text-align: center;
+   border:  solid 8px #07b6c2;
+   border-radius: 50px;
+   margin-left: 50px;
+ 
+
+}
+
+.texto__sobre{
+    display: flex;
+    justify-content: center;
+}
+
+#destaque {
+    display: inline;
+}
+
+#destaque img {
+    border-radius: 50px;
+    margin: 50px;
+    width: 800px;
+    }
+
+    .marquee span{
+        animation: marquee 20s linear infinite;
+      display: inline-block;
+      padding-left: 100%;
+      color: #f8ebeb;
+      font-size: 16px;
+    padding-top: 15px;
+    }
+    .marquee {
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      @keyframes marquee {
+        0% {
+          transform: translate(0, 0);
+        }
+      
+       100% {
+          transform: translate(-100%, 0);
+        }
+      }
